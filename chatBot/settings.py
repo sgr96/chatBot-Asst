@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-_$tl6@kep%_i#icwm+ujax7ewuz&bmn+0rfb6hu_%rdjvjl)ll'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['epc-chatbot-assistant.herokuapp.com']
 
 
 # Application definition
